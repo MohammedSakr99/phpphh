@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body::after {
+    content: "";
+    /* background: url("../images/Ambulance.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+.all{
+    width: 70%;
+    margin-left: 15%;
+}
+.card{
+    position: relative;
+    left: 9%;
+width: 80%;
+}
+.head{
+    text-align: center;
+    padding: 0.1%;
+    box-shadow: 2px 2px 2px 2px black ;
+    
+    }
+.data{
+    margin-top: 10px;
+    text-align: center;
+    border:4px groove  gray;
+    box-shadow:3px 3px 3px 3px black;
+}
+input{
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 9px;
+    padding: 7px;
+    width: 40%;
+}
+button{
+    margin-bottom: 2%;
+    margin-top: 7%;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 33px;
+    padding: 5px;
+    width: 10%;  
+}
